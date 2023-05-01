@@ -1,0 +1,790 @@
+* {
+	margin : 0; 
+	list-style: none;
+	text-decoration: none;
+    font-family: 'manrope';
+    scroll-behavior: smooth;
+} 
+
+/* ---------------------------------------------------------- navbar */
+nav {
+    padding: 4rem 2rem 4rem 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* ------------------------------------------------------------ logo */
+.logo {
+    height: 50px;
+}
+
+/* ------------------------- menu (yang disembunyikan ketika mobile) */
+nav .navbar{
+    justify-content: space-between;
+    font-size: 20px;
+    display: flex;
+    width: 100%;
+}
+
+/* ------------------------------------------------------ isi navbar */
+.navbar_isi {
+    display: inline-flex;
+    padding: 0.75rem 1rem ;
+    gap: 1.5rem;
+}
+.navbar_isi a{
+    color: #394360;
+    font-family: 'manrope';
+}
+
+/* ---------------------------------------------------- button login */
+.btn_gbg {
+    display: inline-flex;
+    gap: 0.5rem;
+}
+.btn_gbg a{
+    color: #8C82FC;
+    font-family: 'manrope';   
+    padding: 0.75rem 2rem ;
+    border-radius: 10px;
+}
+.btn_gbg a:hover{
+    padding: 0.75rem 2rem ;
+    border-radius: 10px;
+    color: white;
+    background-color:#8C82FC;
+    transition: 0.25s;
+}
+
+/* ----------------------------------------------------- burger menu */
+.menu {
+    display: none;
+}
+.burger_menu {
+    padding: 2px 3px 35px;
+    width: 1.5rem;
+    border: 1px solid #c8d0da;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.burger_menu span{
+    margin-bottom: 4px;
+    height: 3px;
+    display: block;
+    background-color: #8C82FC;
+    border-radius: 3px;
+    float: right;
+}
+.line_1 {
+    width: 100%;
+}
+
+.line_2{
+    width: 70%;
+}
+.line_3{
+    width: 35%;
+}
+
+/* ------------------------------------------------------- hero home */
+.home {
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+    padding: 4rem;
+}
+.title{
+    width: 40%;
+}
+.title h2 {
+    margin: 50px 0;
+    font-size: 20px;
+    line-height: 1;
+    color: #8C82FC;
+}
+.title h1 {
+    margin: 50px 0;
+    font-size: 64px;
+    line-height: 1;
+}
+.title p {
+    display: block ;
+    margin: 30px 0;
+    font-size: 24px;
+    line-height: 1.5; 
+}
+.btn_home{
+    display: flex;
+    gap: 1.5rem;
+}
+.btn_home a{
+    font-family: 'manrope';
+    font-size: 23px;
+    display: inline-flex;
+    padding: 1rem 3rem ;
+    border-radius: 10px;
+    color: #A2B3BF;
+    background-color:  #F7F7FD;
+}
+.btn_mi:hover{
+    color: white;
+    transition: 0.5s;
+    background-color: #8C82FC;;
+}
+.home img {
+    width: 50%;
+    height: auto;
+    /* height: 616px; */
+}
+
+/* ------------------------------------------------ learning section */
+.learning {
+    background-color:#F8F8FF;
+    padding: 4rem;
+}
+.title_learning{
+    width: 45%;
+}
+.title_learning h2{
+    font-size: 20px;
+    font-family: 'Manrope';
+    color: #8C82FC;
+}
+.title_learning h1 {
+    margin-top: 10px;
+    font-family: 'Manrope';
+    font-size: 44px;
+    color: #22293E;
+}
+.title_learning p {
+    width: 75%;
+    margin-top: 10px;
+    font-family: 'Manrope';
+    font-size: 22px;
+    color: #222831;
+}
+
+/* ------------------------------------------------ learning section */
+.box_learning{
+    margin-top: 75px;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    gap: 1rem;
+}
+.card_learning{
+    padding: 2rem;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    width: 195px;
+    color: #22293E;
+}
+.content_learning img{
+    width: 80px;
+    height: 80px;
+}
+.content_learning h1{
+    margin-top: 20px;
+    font-family: 'Manrope';
+    font-size: 20px;
+}
+.content_learning p {
+    margin-top: 10px;
+    font-family: 'Manrope';
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+.card_learning:hover{
+    color: #FFFFFF;
+    background: #8C82FC;
+}
+.btn_sc {
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    padding: 0.5rem  ;
+    color: white;
+    background-color: #44E4C9;
+    border-radius: 6px;
+}
+
+/* ------------------------------------------------ about us section */
+.about_us {
+    display: flex;
+    padding: 4rem;
+    gap: 5rem;
+}
+.title_about{
+    width: 50%;
+}
+.about_us img {
+    width: 50%;
+    height: auto;
+}
+.about_us h2 {
+    font-size: 20px;
+    color: #8C82FC;
+}
+.about_us h1 {
+    margin-top: 10px;
+    font-size: 44px;
+    color: #22293E;
+    margin-bottom: 20px;
+}
+.about_us p {
+    font-size: 22px;
+    color: #222831;
+}
+.ceklis {
+    display: flex;
+    margin-top: 30px;
+}
+.ceklis img{
+    width: 50px;
+    height: 50px;
+    display: inline-flex;
+}
+.ceklis p {
+    display: flex;
+    margin-left: 20px;
+    align-items: center;
+    color: #22293E;
+    font-size: 20px;
+    width: 70%;
+}
+
+/* ------------------------------------------------- company section */
+.company {
+    background-color: #F8F8FF;
+    padding: 4rem;
+    text-align: center;
+    justify-content: center;
+    display: grid;
+    margin: 0 auto;
+}
+.company h1 {
+    font-size: 44px;
+    color: #22293E;
+}
+.company p {
+    margin-top: 30px;
+    font-size: 26px;
+    color: #000000;
+    margin-bottom: 70px;
+}
+.logo_brand {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.logos {
+    padding: 20px;
+    margin: 0 auto;
+}
+.logos img {
+    width: auto;
+    width: 200px;
+    align-self: center;
+}
+
+/* ------------------------------------------------- testing section */
+.testimonial {
+    padding: 4rem;
+    text-align: center;
+}
+.title_testimonial h2{
+    font-size: 20px;
+    color: #8C82FC;
+}
+.title_testimonial h1{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 44px;
+    color: #22293E;
+}
+.title_testimonial p{
+    font-size: 24px;
+    color: #222831;
+}
+.box_testimonial{
+    margin-top: 75px;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    gap: 1rem;
+}
+.card_testimonial{
+    padding: 2rem;
+    margin: 50px 0px;
+    border: 1px solid #8C82FC;
+    border-radius: 12px;
+    width: 195px;
+    color: #22293E;
+    font-style: normal;
+}
+.content_testimonial {
+    margin-top: -4.5rem;
+}
+.content_testimonial img{
+    width: 80px;
+    height: 80px;
+}
+.content_testimonial h1{
+    margin-top: 50px;
+    font-family: 'Manrope';
+    font-size: 22px;
+}
+.card_testimonial h2{
+    font-size: 15px;
+    color: #BAB8D2;
+}
+.content_testimonial p {
+    margin-top: 30px;
+    font-family: 'Manrope';
+    font-size: 17px;
+    margin-bottom: 30px;
+}
+
+/* --------------------------------------------------- start section */
+.start {
+    background:rgba(0,0,0,0.5)url(asset/wait.png) ;
+    background-size: cover;
+    padding: 4rem;
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.start h1 {
+    font-size: 44px;
+    color: #FFFFFF;
+}
+.start p {
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-bottom: 70px;
+}
+.btn_start{
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    margin-top: 20px;
+}
+.btn_start a{
+    font-family: 'manrope';
+    font-size: 23px;
+    padding: 0.5rem 1.5rem ;
+    border-radius: 5px;
+    color: white;
+}
+.btn_strt:hover{
+    color: white;
+    transition: 0.5s;
+    background-color: #8C82FC;;
+}
+
+/* ---------------------------------------------------------- footer */
+.footer {
+    padding: 7rem  4rem;
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    gap: 2rem;
+}
+.footer_nav {
+    justify-content: start;
+    width: 100%;
+}
+.footer_nav h1 {
+    margin-bottom: 30px;
+    font-size: 28px;
+    color: #22293E;
+}
+.footer_nav img {
+    height: 50px;
+}
+.logos_nav {
+    margin-top: 50px;
+    font-size: 22px;
+    color: #22293E;
+}
+.footer_nav ul li {
+    margin-bottom: 20px;
+}
+.footer_nav a {
+    font-size: 22px;
+    color: #22293E;
+    margin-bottom: 20px;
+}
+.alamat_jl {
+    font-size: 22px;
+    color: #000000;
+    width: 65%;
+}
+.kontak_us {
+    display: flex;
+    margin-bottom: 20px;
+}
+.kontak_us img {
+    width: 30px;
+    height: 30px;
+    margin-right: 1rem;
+}
+.kontak_us p {
+    font-size: 22px;
+    color: #8C82FC;
+}
+
+/*==================================================== media query */
+/*============================================ media untuk pc keatas */
+@media screen and (min-width: 1440px){
+    *{
+        margin: 0 auto;
+        max-width: 1440px;
+    }
+    .btn_gbg {
+        margin-left: 475px;
+    }
+}
+
+@media screen and (max-width: 1366px){
+
+}
+
+
+
+/* ============================================== media untuk tablet */
+@media screen and (max-width: 884px){
+
+    /* ------------------------------------------------- menu navbar */
+    .menu {
+        display: inline-block;
+        position: sticky;
+    }
+    nav .navbar{
+        padding: 0;
+        margin: 0;
+        display: inline-block;
+        position: absolute;
+        top: -100%;
+        background-color: #F8F8FF;
+        right: 0;
+        left: 0;
+        height: 50vh;
+        text-align: center;
+        line-height: 3;
+    }
+    nav .navbar.active{
+        top: 0;
+    }
+    .navbar_isi {
+        display: inline;
+        gap: 0rem;
+    }
+    .btn_gbg {
+        display: block;
+        margin: auto;
+    }
+
+    /* --------------------------------------------------- hero menu */
+    .home {
+        flex-wrap: wrap-reverse;
+        gap: 0;
+    }
+    .title{
+        width: 100%;
+    }
+    .title h1 {
+        font-size: 80px;
+    }
+    .home img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* ----------------------------------------------- menu learning */
+    .title_learning{
+        width: 100%;
+    }
+    .box_learning{
+        flex-wrap: wrap;
+    }
+    .card_learning{
+        padding: 1rem;
+        width: 250px;
+    }
+
+    /* ------------------------------------------------ menu tentang */
+    .about_us {
+        flex-wrap: wrap;
+    }
+    .about_us img {
+        width: 100%;
+
+    }
+    .ceklis img{
+        width: 30px;
+    }
+    .ceklis p {
+        width: 100%;
+    }
+    .logo_brand {
+        grid-template-columns: 1fr 1fr;
+    }
+    /* ----------------------------------------------------- testing */
+    .box_testimonial{
+       flex-wrap: wrap;
+    }
+    /* ------------------------------------------------------ footer */
+    .footer {
+        padding: 7rem  4rem;
+        display: flex;
+        justify-content: space-between;
+        gap: 1rem;
+    }
+    .footer_nav {
+        justify-content: start;
+        width: 50%;
+    }
+    .footer_nav h1 {
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+    .footer_nav1 img {
+        height: 40px;
+    }
+    .logos_nav {
+        margin-top: 20px;
+        font-size: 18px;
+    }
+    .footer_nav ul li {
+        margin-bottom: 20px;
+    }
+    .footer_nav a {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    .alamat_jl {
+        font-size: 18px;
+        width: 65%;
+    }
+    .kontak_us {
+        display: flex;
+        margin-bottom: 20px;
+    }
+    .kontak_us img {
+        width: 25px;
+        height: 25px;
+        margin-right: 0.25rem;
+    }
+    .kontak_us p {
+        font-size: 18px;
+    }
+}
+
+/* ========================================== media untuk smartphone */
+@media screen and (max-width: 576px){
+    /* ------------------------------------------------------ navbar */
+    nav {
+        padding: 2rem;
+    }
+    .menu {
+        display: inline-block;
+        position: sticky;
+    }
+    nav .navbar{
+        padding: 0;
+        margin: 0;
+        display: inline-block;
+        position: absolute;
+        top: -100%;
+        background-color: #F8F8FF;
+        right: 0;
+        left: 0;
+        height: 60vh;
+        text-align: center;
+        line-height: 3;
+    }
+    nav .navbar.active{
+        top: 0;
+    }
+    .navbar_isi {
+        display: inline;
+        gap: 0rem;
+    }
+    .btn_gbg { 
+        display: block;
+        margin: auto;
+    }
+
+    /* --------------------------------------------------- menu hero */
+    .home {
+        flex-wrap: wrap-reverse;
+        gap: 0;
+        padding: 2rem;
+    }
+    .title{
+        width: 100%;
+    }
+    .title h1 {
+        font-size: 48px;
+        margin: 25px 0;
+    }
+    .title h2 {
+        font-size: 16px;
+        margin: 25px 0;
+    }
+    .title p {
+        font-size: 18px;
+        margin: 15px 0;
+    }
+    .btn_home a{
+        font-size: 18px;
+        padding: 0.75rem 2rem ;
+    }
+    .home img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* ----------------------------------------------- menu learning */
+    .learning {
+        padding: 2rem;
+    }
+    .title_learning h2{
+        font-size: 18px;
+        font-family: 'Manrope';
+        color: #8C82FC;
+    }
+    .title_learning h1 {
+        font-size: 24px;
+        width: 90%;
+    }
+    .title_learning p {
+        width: 80%;
+        font-size: 18px;
+    }
+    .box_learning{
+        flex-wrap: wrap;
+    }
+    .card_learning{
+        padding: 2rem;
+        width: 100%;
+    }
+
+    /* ------------------------------------------------ menu tentang */
+    .about_us {
+        flex-wrap: wrap;
+        padding: 2rem;
+    }
+    .about_us h2 {
+        font-size: 18px;
+    }
+    .about_us h1 {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    .about_us p {
+        font-size: 18px;
+    }
+    .about_us img {
+        width: 100%;
+    }
+    .ceklis {
+        margin-top: 20px;
+    }
+    .ceklis img{
+        width: 30px;
+        height: 30px;
+    }
+    .ceklis p {
+        width: 100%;
+        font-size: 18px;
+    }
+    .company {
+        padding: 2rem;
+    }
+    .company h1 {
+        font-size: 30px;
+    }
+    .company p {
+        margin-top: 10px;
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+    .logo_brand {
+        grid-template-columns: 1fr;
+    }
+
+    /* ---------------------------------------------- menu testinomi */
+    .testimonial {
+        padding: 2rem;
+    }
+    .title_testimonial h2{
+        font-size: 18px;
+    }
+    .title_testimonial h1{
+        font-size: 30px;
+    }
+    .title_testimonial p{
+        font-size: 20px;
+    }
+    .card_testimonial{
+        width: 100%;
+    }
+    .content_testimonial h1{
+        margin-top: 20px;
+        font-size: 20px;
+    }
+    .card_testimonial h2{
+        font-size: 15px;
+        color: #BAB8D2;
+    }
+    .content_testimonial p {
+        font-size: 16px;
+    }
+    .start h1 {
+        font-size: 30px;
+    }
+    .start p {
+        margin-top: 10px;
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+    .btn_start a{
+        font-size: 20px;
+    }
+
+    /* ------------------------------------------------------ footer */
+    .footer {
+        flex-wrap: wrap;
+    }
+    .footer_nav {
+        width: 100%;
+    }
+    .footer_nav h1 {
+        font-size: 20px;
+    }
+    .logos_nav {
+        margin-top: 20px;
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    .footer_nav ul li {
+        margin-left: -40px;
+    }
+    .footer_nav a {
+        font-size: 18px;
+    }
+    .alamat_jl {
+        font-size: 18px;
+    }
+    .kontak_us img {
+        width: 25px;
+        height: 25px;
+        margin-right: 0.25rem;
+    }
+    .kontak_us p {
+        font-size: 18px;
+    }
+}
+
